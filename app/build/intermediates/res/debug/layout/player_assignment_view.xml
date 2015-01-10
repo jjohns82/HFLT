@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/my_background"
+    tools:context=".MainActivity"
+    android:gravity="top">
+
+    <TextView
+        android:id="@+id/text1"
+        android:background="@color/my_background"
+        android:layout_height="80sp"
+        android:layout_width="550sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#17fdea"
+        android:text="@string/player_assignment_title"
+        android:textSize="55sp"
+        />
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:background="@color/my_background"
+        tools:context=".MainActivity"
+        android:gravity="top">
+
+        <TextView
+            android:id="@+id/text_top"
+            android:background="@color/my_background"
+            android:layout_height="70sp"
+            android:layout_width="550sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#17fdea"
+            android:text="Team 1"
+            android:textSize="40sp"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/my_background"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/team1_vest1"
+                android:background="@drawable/cyan_button"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Vest 1"
+                android:onClick="team1vest1"
+                style="@style/button_text"
+                />
+            <Button
+                android:id="@+id/team1_vest2"
+                android:background="@drawable/cyan_button"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Vest 2"
+                android:onClick="team1vest2"
+                style="@style/button_text"
+                />
+            <Button
+                android:id="@+id/team1_vest3"
+                android:background="@drawable/cyan_button"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Vest 3"
+                android:onClick="team1vest3"
+                style="@style/button_text"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/my_background"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/team1_vest4"
+                android:background="@drawable/cyan_button"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Vest 4"
+                android:onClick="team1vest4"
+                style="@style/button_text"
+                />
+            <Button
+                android:id="@+id/team1_vest5"
+                android:background="@drawable/cyan_button"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Vest 5"
+                android:onClick="team1vest5"
+                style="@style/button_text"
+                />
+            <Button
+                android:id="@+id/team1_vest6"
+                android:background="@drawable/cyan_button"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Vest 6"
+                android:onClick="team1vest6"
+                style="@style/button_text"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:background="@color/my_background"
+        tools:context=".MainActivity"
+        android:gravity="top">
+
+        <TextView
+            android:id="@+id/text_bot"
+            android:background="@color/my_background"
+            android:layout_height="70sp"
+            android:layout_width="550sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#17fdea"
+            android:text="Team 2"
+            android:textSize="40sp"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/my_background"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/team2_vest1"
+                android:background="@drawable/cyan_button"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Vest 1"
+                android:onClick="team2vest1"
+                style="@style/button_text"
+                />
+            <Button
+            android:id="@+id/team2_vest2"
+            android:background="@drawable/cyan_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Vest 2"
+                android:onClick="team2vest2"
+            style="@style/button_text"
+            />
+            <Button
+                android:id="@+id/team2_vest3"
+                android:background="@drawable/cyan_button"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Vest 3"
+                android:onClick="team2vest3"
+                style="@style/button_text"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/my_background"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/team2_vest4"
+                android:background="@drawable/cyan_button"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Vest 4"
+                android:onClick="team2vest4"
+                style="@style/button_text"
+                />
+            <Button
+                android:id="@+id/team2_vest5"
+                android:background="@drawable/cyan_button"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Vest 5"
+                android:onClick="team2vest5"
+                style="@style/button_text"
+                />
+            <Button
+                android:id="@+id/team2_vest6"
+                android:background="@drawable/cyan_button"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Vest 6"
+                android:onClick="team2vest6"
+                style="@style/button_text"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/my_background"
+        android:gravity="center">
+        <Button
+            android:id="@+id/back"
+            android:background="@drawable/cyan_button"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="BACK"
+            android:onClick="back"
+            style="@style/button_text"/>
+        <Button
+            android:id="@+id/done"
+            android:background="@drawable/cyan_button"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="DONE"
+            android:onClick="done"
+            style="@style/button_text"/>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Michael/AndroidStudioProjects/LaserTag/app/src/main/res/layout/player_assignment_view.xml -->

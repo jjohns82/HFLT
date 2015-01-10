@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/my_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/title1"
+            android:background="@color/my_background"
+            android:layout_height="85sp"
+            android:layout_width="550sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#17fdea"
+            android:text="@string/full_title1"
+            android:textSize="65sp"
+            />
+
+        <TextView
+            android:id="@+id/title2"
+            android:background="@color/my_background"
+            android:layout_height="85sp"
+            android:layout_width="550sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#17fdea"
+            android:text="@string/full_title2"
+            android:textSize="65sp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/config_button"
+        android:background="@drawable/cyan_button"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/configure"
+        android:onClick="configurePressed"
+        style="@style/button_text"
+        />
+</LinearLayout><!-- From: file:/C:/Users/Michael/AndroidStudioProjects/LaserTag/app/src/main/res/layout/activity_main.xml -->

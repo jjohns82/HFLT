@@ -1,0 +1,5 @@
+C:\Users\Michael\AndroidStudioProjects\LaserTag\app\build\intermediates\classes\debug
+C:\Users\Michael\AndroidStudioProjects\LaserTag\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-3527c4c9e551775e2d07159c7eb9ffda2c639324.jar
+C:\Users\Michael\AndroidStudioProjects\LaserTag\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-0b9b09fe31c6b6f1d59b9093f0790406ce5a8a4e.jar
+C:\Users\Michael\AndroidStudioProjects\LaserTag\app\build\intermediates\pre-dexed\debug\classes-857acf12a0bfa592d0bcd1b06007d0358465dc24.jar
+C:\Users\Michael\AndroidStudioProjects\LaserTag\app\build\intermediates\pre-dexed\debug\classes-9879628d6d70023037d8c18433728c703834c5ae.jar

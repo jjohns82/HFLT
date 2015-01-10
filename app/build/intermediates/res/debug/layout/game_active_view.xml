@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/my_background"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:background="@color/my_background"
+        tools:context=".MainActivity"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/curr_time"
+            android:background="@color/my_background"
+            android:layout_height="200sp"
+            android:layout_width="550sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:text="time_here"
+            android:textSize="100sp"
+            />
+
+     </LinearLayout>
+
+    <Button
+        android:id="@+id/stop"
+        android:background="@drawable/red_button"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="STOP"
+        android:onClick="stop"
+        style="@style/button_text"/>
+    <Button
+        android:id="@+id/pause"
+        android:background="@drawable/cyan_button"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="PAUSE"
+        android:onClick="pause"
+        style="@style/button_text"/>
+
+</LinearLayout><!-- From: file:/C:/Users/Michael/AndroidStudioProjects/LaserTag/app/src/main/res/layout/game_active_view.xml -->
